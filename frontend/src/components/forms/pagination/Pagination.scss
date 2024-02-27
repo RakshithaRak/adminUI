@@ -1,0 +1,22 @@
+.page-no,
+.page-no-selected,
+.page-no-disabled {
+    border-radius: 45%;
+    cursor: pointer;
+    padding: .3rem;
+}
+
+.page-no {
+    background: #3498DB;
+    color: white
+}
+
+.page-no-selected {
+    border: 1px solid #3498DB;
+}
+
+.page-no-disabled {
+    background: #D0D3D4;
+    color: white;
+    cursor: not-allowed;
+}
